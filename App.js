@@ -21,7 +21,11 @@ const ListFooter = () => {
   //View to set in Footer
   return (
     <View style={styles.headerFooterStyle}>
-      <Text style={styles.textStyle1}>
+      <Text style={{
+        textAlign: 'center',
+        color: '#fff',
+        fontSize: 12,
+        padding: 7, }}>
         Copyright 2020 Tähtitech ÖU
         </Text>
     </View>
